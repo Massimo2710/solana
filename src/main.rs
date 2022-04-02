@@ -22,4 +22,13 @@ fn main() {
   let is_true: bool =true;
 
   println!("isTrue: {}", is_true);
+
+  //array declaration
+  let arr: [u8;3] = [1,2,3];
+  let other_arr: [u8; 5] = [100;5];
+
+  println!("index: {}, length: {}", arr[0],other_arr.len());
+
+  //print structure of arrray and other objects
+  println!("{:?}", other_arr);
 }
